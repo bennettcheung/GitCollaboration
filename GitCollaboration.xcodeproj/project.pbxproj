@@ -14,6 +14,7 @@
 		916A7140212DE3F6003FE485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916A713E212DE3F6003FE485 /* LaunchScreen.storyboard */; };
 		916A714B212DE3F7003FE485 /* GitCollaborationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A714A212DE3F7003FE485 /* GitCollaborationTests.swift */; };
 		916A7156212DE3F7003FE485 /* GitCollaborationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A7155212DE3F7003FE485 /* GitCollaborationUITests.swift */; };
+		91AC29E1212DF76E00947590 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AC29E0212DF76E00947590 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		916A7151212DE3F7003FE485 /* GitCollaborationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitCollaborationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		916A7155212DE3F7003FE485 /* GitCollaborationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCollaborationUITests.swift; sourceTree = "<group>"; };
 		916A7157212DE3F7003FE485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91AC29E0212DF76E00947590 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				916A7135212DE3F3003FE485 /* AppDelegate.swift */,
+				91AC29E0212DF76E00947590 /* Color.swift */,
 				916A7137212DE3F3003FE485 /* ViewController.swift */,
 				916A7139212DE3F3003FE485 /* Main.storyboard */,
 				916A713C212DE3F6003FE485 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				916A7138212DE3F3003FE485 /* ViewController.swift in Sources */,
 				916A7136212DE3F3003FE485 /* AppDelegate.swift in Sources */,
+				91AC29E1212DF76E00947590 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
