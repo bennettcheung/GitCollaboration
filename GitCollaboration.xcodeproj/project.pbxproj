@@ -15,6 +15,7 @@
 		916A7156212DE3F7003FE485 /* GitCollaborationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A7155212DE3F7003FE485 /* GitCollaborationUITests.swift */; };
 		A1FC341C212DEC18006DA973 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC341B212DEC18006DA973 /* detailViewController.swift */; };
 		A1FC341E212DEC36006DA973 /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC341D212DEC36006DA973 /* myTableViewController.swift */; };
+		916A7164212DE876003FE485 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A7163212DE876003FE485 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		916A7157212DE3F7003FE485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1FC341B212DEC18006DA973 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		A1FC341D212DEC36006DA973 /* myTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		916A7163212DE876003FE485 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		916A7134212DE3F3003FE485 /* GitCollaboration */ = {
 			isa = PBXGroup;
 			children = (
+				916A7163212DE876003FE485 /* Color.swift */,
 				916A7135212DE3F3003FE485 /* AppDelegate.swift */,
 				916A7139212DE3F3003FE485 /* Main.storyboard */,
 				A1FC341D212DEC36006DA973 /* myTableViewController.swift */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				916A7136212DE3F3003FE485 /* AppDelegate.swift in Sources */,
+				916A7136212DE3F3003FE485 /* AppDelegate.swift in Sources */
 				A1FC341C212DEC18006DA973 /* detailViewController.swift in Sources */,
 				A1FC341E212DEC36006DA973 /* myTableViewController.swift in Sources */,
+				916A7164212DE876003FE485 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
